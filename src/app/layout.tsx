@@ -15,7 +15,6 @@ export const metadata: Metadata = {
     "Luxury Fashion Nepal",
     "Kathmandu Fashion",
     "Artisanal Handloom",
-    "Rastah Inspired",
     "South Asian Luxury",
   ],
 };

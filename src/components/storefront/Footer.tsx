@@ -177,7 +177,6 @@ export const Footer: React.FC = () => {
         <div className="flex flex-wrap items-center justify-center sm:justify-end gap-3 sm:gap-6 text-center sm:text-right">
           <span>CURRENCY: NPR (रू)</span>
           <span>MADE IN NEPAL</span>
-          <span>RASTAH.CO INSPIRED ARCHITECTURE</span>
         </div>
       </div>
     </footer>
