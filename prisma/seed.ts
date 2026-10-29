@@ -11,7 +11,7 @@ import {
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("Seeding LUGA live Supabase database...");
+  console.log("Seeding Obsidian Apparel live Supabase database...");
 
   // 1. Site Settings
   console.log("Upserting site settings...");
@@ -227,7 +227,7 @@ async function main() {
     });
   }
 
-  console.log("✔ Live Supabase Database successfully seeded with LUGA Patan Archive!");
+  console.log("✔ Live Supabase Database successfully seeded with Obsidian Apparel Streetwear Archive!");
 }
 
 main()

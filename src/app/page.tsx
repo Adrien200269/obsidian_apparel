@@ -141,7 +141,7 @@ export default function HomePage() {
       {/* 3. EDITORIAL SPLIT BANNER */}
       <section className="w-full border-y border-luga-border dark:border-luga-darkBorder">
         <div className="grid grid-cols-1 lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x divide-luga-border dark:divide-luga-darkBorder">
-          {/* Left Frame: Artisanal Handloom */}
+          {/* Left Frame: Heavyweight Knits & Hoodies */}
           <ScrollReveal direction="up" duration={750} className="h-full">
             <div className="group relative flex flex-col justify-end min-h-[460px] sm:min-h-[580px] lg:min-h-[680px] p-6 sm:p-10 lg:p-14 overflow-hidden bg-luga-surface dark:bg-luga-darkSurface h-full">
               <div className="absolute inset-0 w-full h-full">
@@ -149,7 +149,7 @@ export default function HomePage() {
                   slotKey="SPLIT_BANNER_LEFT"
                   aspectRatio="3:4"
                   resolution="1200×1600px"
-                  alt="Artisanal Handloom Craftsmanship"
+                  alt="Heavyweight Knits & Hoodies"
                   className="w-full h-full border-none"
                   imageClassName="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                 />
@@ -438,7 +438,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. BRAND STORY / PATAN WEAVING MANIFESTO */}
+      {/* 6. BRAND STORY / STREETWEAR ETHOS */}
       <section className="max-w-[1920px] mx-auto px-4 sm:px-8 py-20 sm:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <ScrollReveal direction="up" duration={750} className="lg:col-span-6 space-y-6">
@@ -469,7 +469,7 @@ export default function HomePage() {
                 slotKey="HERITAGE_STORY_BANNER"
                 aspectRatio="4:3"
                 resolution="2000×1500px"
-                alt="Newar Master Weaver in Lalitpur"
+                alt="Obsidian Apparel Streetwear Studio"
                 className="w-full h-full border-none"
               />
             </div>

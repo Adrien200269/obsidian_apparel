@@ -74,7 +74,7 @@ export const SearchDrawer: React.FC = () => {
         {/* Quick Search Chips */}
         <div className="mt-4 flex flex-wrap gap-2 text-[10px] font-mono tracking-wider uppercase text-luga-muted dark:text-luga-darkMuted">
           <span className="py-1">POPULAR:</span>
-          {["French Terry", "Handloom", "460 GSM", "Yak Wool", "Trench", "Pleated"].map(
+          {["Hoodie", "Boxy Tee", "French Terry", "460 GSM", "Cargo Pants", "Overshirt"].map(
             (tag) => (
               <button
                 key={tag}
@@ -98,7 +98,7 @@ export const SearchDrawer: React.FC = () => {
 
         {query.trim() && filteredProducts.length === 0 && (
           <div className="text-center py-16 text-luga-muted dark:text-luga-darkMuted font-editorial text-xl">
-            No archived garments match your query. Try searching for &quot;Hoodie&quot;, &quot;Trench&quot;, or &quot;Handloom&quot;.
+            No streetwear garments match your query. Try searching for &quot;Hoodie&quot;, &quot;Boxy Tee&quot;, or &quot;Cargo&quot;.
           </div>
         )}
 

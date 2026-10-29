@@ -15,7 +15,7 @@ export default function LookbookPage() {
   const highlightSlot = getMediaSlot("LOOKBOOK_HIGHLIGHT_BANNER");
   const lookbookContent = getLookbookContent();
 
-  const volumes = ["ALL", "VOLUME I: KATHMANDU ARCHIVE"];
+  const volumes = ["ALL", "CAPSULE 01: STREET ESSENTIALS"];
 
   const filteredItems =
     selectedVolume === "ALL"

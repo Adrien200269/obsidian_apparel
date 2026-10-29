@@ -380,7 +380,7 @@ export default function AdminProductsPage() {
                     <input
                       type="text"
                       required
-                      placeholder="e.g. Patan Monolith Handloom Trench Coat"
+                      placeholder="e.g. Ridge 460 GSM Heavyweight Hoodie"
                       value={title}
                       onChange={(e) => setTitle(e.target.value)}
                       className="w-full bg-transparent border border-luga-border dark:border-luga-darkBorder p-2.5 text-luga-ink dark:text-luga-darkInk focus:outline-none"
@@ -392,7 +392,7 @@ export default function AdminProductsPage() {
                     <input
                       type="text"
                       required
-                      placeholder="LUG-V1-OUT-001"
+                      placeholder="OBS-C1-HD-001"
                       value={sku}
                       onChange={(e) => setSku(e.target.value)}
                       className="w-full bg-transparent border border-luga-border dark:border-luga-darkBorder p-2.5 text-luga-ink dark:text-luga-darkInk focus:outline-none"
@@ -447,7 +447,7 @@ export default function AdminProductsPage() {
                     <label className="text-[10px] text-luga-muted uppercase">FABRIC GSM & WEAVE SPEC</label>
                     <input
                       type="text"
-                      placeholder="e.g. 520 GSM Double-Face Cotton Twill • Pure Handloom Dhaka"
+                      placeholder="e.g. 460 GSM Loopback French Terry • 100% Combed Cotton"
                       value={fabricGsm}
                       onChange={(e) => setFabricGsm(e.target.value)}
                       className="w-full bg-transparent border border-luga-border dark:border-luga-darkBorder p-2.5 text-luga-ink dark:text-luga-darkInk focus:outline-none"
@@ -473,7 +473,7 @@ export default function AdminProductsPage() {
                     <label className="text-[10px] text-luga-muted uppercase">GARMENT DESCRIPTION</label>
                     <textarea
                       rows={2}
-                      placeholder="Detailed architectural cut, drape, and silhouette description..."
+                      placeholder="Heavyweight streetwear cut, dropped shoulders, relaxed boxy drape..."
                       value={description}
                       onChange={(e) => setDescription(e.target.value)}
                       className="w-full bg-transparent border border-luga-border dark:border-luga-darkBorder p-2.5 text-luga-ink dark:text-luga-darkInk focus:outline-none"
@@ -484,7 +484,7 @@ export default function AdminProductsPage() {
                     <label className="text-[10px] text-luga-muted uppercase">KATHMANDU CRAFTSMANSHIP STORY</label>
                     <textarea
                       rows={2}
-                      placeholder="Details on Patan/Bhaktapur weavers, pit-looms, raw Mustang yak fibers, or natural dye origins..."
+                      placeholder="Custom milling details, pre-shrunk organic cotton, dense loopback knit, or garment-dye wash..."
                       value={craftStory}
                       onChange={(e) => setCraftStory(e.target.value)}
                       className="w-full bg-transparent border border-luga-border dark:border-luga-darkBorder p-2.5 text-luga-ink dark:text-luga-darkInk focus:outline-none"

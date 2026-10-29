@@ -98,7 +98,7 @@ export default function AdminShopPage() {
     },
     {
       key: "knitwear",
-      label: "Knitwear & Yak Wool",
+      label: "Hoodies & French Terry",
       slotKey: "CATEGORY_BANNER_KNITWEAR",
       slot: knitwearSlot,
       headingField: "knitwearHeading" as keyof ShopPageData,
@@ -107,7 +107,7 @@ export default function AdminShopPage() {
     },
     {
       key: "shirts",
-      label: "Shirts & Handloom Overshirts",
+      label: "Tees & Overshirts",
       slotKey: "CATEGORY_BANNER_SHIRTS",
       slot: shirtsSlot,
       headingField: "shirtsHeading" as keyof ShopPageData,
@@ -116,7 +116,7 @@ export default function AdminShopPage() {
     },
     {
       key: "trousers",
-      label: "Trousers & Architectural Cargo",
+      label: "Cargos & Street Bottoms",
       slotKey: "CATEGORY_BANNER_TROUSERS",
       slot: trousersSlot,
       headingField: "trousersHeading" as keyof ShopPageData,

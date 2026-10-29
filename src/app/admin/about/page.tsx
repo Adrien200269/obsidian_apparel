@@ -359,14 +359,14 @@ export default function AdminAboutPage() {
           </div>
         </section>
 
-        {/* 3. VISUAL DIPTYCH: STUDIO & HANDLOOM CRAFT */}
+        {/* 3. VISUAL DIPTYCH: STUDIO & FABRIC DENSITY */}
         <section className="p-6 bg-luga-bg dark:bg-[#0F0F0F] border border-luga-border dark:border-luga-darkBorder space-y-6">
           <div className="border-b border-luga-border/60 pb-3">
             <span className="font-mono text-[9px] tracking-mega uppercase text-luga-crimson dark:text-luga-gold">
               SECTION 03
             </span>
             <h2 className="font-editorial text-2xl text-luga-ink dark:text-luga-darkInk uppercase">
-              VISUAL DIPTYCH (ATELIER PORTRAIT & CRAFT MACRO)
+              VISUAL DIPTYCH (STUDIO PORTRAIT & FABRIC DETAIL)
             </h2>
           </div>
 
@@ -375,7 +375,7 @@ export default function AdminAboutPage() {
             <div className="space-y-4 p-4 border border-luga-border">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] uppercase font-bold text-luga-crimson dark:text-luga-gold">
-                  FRAME A // ATELIER PORTRAIT
+                  FRAME A // STUDIO PORTRAIT
                 </span>
                 <span className="text-[9px] text-luga-muted">SLOT: ABOUT_STUDIO_PORTRAIT</span>
               </div>
@@ -431,7 +431,7 @@ export default function AdminAboutPage() {
                 <label className="text-[10px] text-luga-muted uppercase">FRAME TITLE</label>
                 <input
                   type="text"
-                  value={studioSlot?.heading || "THE ATELIER // KATHMANDU"}
+                  value={studioSlot?.heading || "THE STUDIO // KATHMANDU"}
                   onChange={(e) =>
                     updateMediaSlot("ABOUT_STUDIO_PORTRAIT", { heading: e.target.value })
                   }
@@ -443,7 +443,7 @@ export default function AdminAboutPage() {
                 <label className="text-[10px] text-luga-muted uppercase">FRAME CAPTION</label>
                 <input
                   type="text"
-                  value={studioSlot?.subHeading || "Where Himalayan raw materials meet modern garment engineering in Lalitpur."}
+                  value={studioSlot?.subHeading || "Where heavyweight knits and modern streetwear silhouettes are prototyped."}
                   onChange={(e) =>
                     updateMediaSlot("ABOUT_STUDIO_PORTRAIT", { subHeading: e.target.value })
                   }
@@ -456,7 +456,7 @@ export default function AdminAboutPage() {
             <div className="space-y-4 p-4 border border-luga-border">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] uppercase font-bold text-luga-crimson dark:text-luga-gold">
-                  FRAME B // HANDLOOM CRAFT
+                  FRAME B // FABRIC & DENSITY
                 </span>
                 <span className="text-[9px] text-luga-muted">SLOT: ABOUT_CRAFT_WEAVE</span>
               </div>
@@ -512,7 +512,7 @@ export default function AdminAboutPage() {
                 <label className="text-[10px] text-luga-muted uppercase">FRAME TITLE</label>
                 <input
                   type="text"
-                  value={craftSlot?.heading || "HERITAGE HANDLOOM"}
+                  value={craftSlot?.heading || "CUSTOM HEAVYWEIGHT KNITS"}
                   onChange={(e) =>
                     updateMediaSlot("ABOUT_CRAFT_WEAVE", { heading: e.target.value })
                   }

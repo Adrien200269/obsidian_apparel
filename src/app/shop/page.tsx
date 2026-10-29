@@ -205,7 +205,7 @@ function ShopContent() {
             {/* Mobile Close Header */}
             <div className="flex items-center justify-between lg:hidden border-b border-luga-border dark:border-luga-darkBorder pb-4">
               <span className="font-bold text-xs uppercase tracking-mega text-luga-ink dark:text-luga-darkInk">
-                ARCHIVE FILTERS
+                STREETWEAR FILTERS
               </span>
               <button
                 onClick={() => setMobileFilterOpen(false)}
@@ -231,11 +231,11 @@ function ShopContent() {
               </h4>
               <div className="space-y-1.5">
                 {[
-                  { id: "all", label: "All Garments" },
-                  { id: "outerwear", label: "Outerwear & Coats" },
-                  { id: "knitwear", label: "Knitwear & Hoodies" },
-                  { id: "shirts", label: "Shirts & Heavy Tees" },
-                  { id: "trousers", label: "Trousers & Cargos" },
+                  { id: "all", label: "All Streetwear" },
+                  { id: "outerwear", label: "Outerwear & Jackets" },
+                  { id: "knitwear", label: "Hoodies & Knits" },
+                  { id: "shirts", label: "Tees & Overshirts" },
+                  { id: "trousers", label: "Cargos & Bottoms" },
                 ].map((cat) => (
                   <button
                     key={cat.id}
@@ -255,7 +255,7 @@ function ShopContent() {
             {/* Collection / Volume Filter */}
             <div className="space-y-3 border-b border-luga-border dark:border-luga-darkBorder pb-6">
               <h4 className="text-[10px] tracking-mega uppercase font-bold text-luga-ink dark:text-luga-darkInk">
-                COLLECTIONS & VOLUMES
+                CAPSULES & RELEASES
               </h4>
               <div className="space-y-1.5">
                 <button
@@ -266,7 +266,7 @@ function ShopContent() {
                       : "text-luga-muted hover:text-luga-ink dark:text-luga-darkMuted dark:hover:text-luga-darkInk"
                   }`}
                 >
-                  • All Volumes
+                  • All Capsules
                 </button>
                 {collections.map((col) => (
                   <button

@@ -13,8 +13,8 @@ interface LuxuryLoaderProps {
 
 export const LuxuryLoader: React.FC<LuxuryLoaderProps> = ({
   fullScreen = false,
-  label = "RETRIEVING ARCHIVAL SILHOUETTES...",
-  sublabel = "KATHMANDU ATELIER // 2026",
+  label = "RETRIEVING STREETWEAR ARCHIVE...",
+  sublabel = "KATHMANDU STUDIO // 2026",
   className,
 }) => {
   return (
@@ -112,9 +112,9 @@ export const LuxuryLoader: React.FC<LuxuryLoaderProps> = ({
       {/* Bottom Technical Spec Footer (when fullScreen) */}
       {fullScreen && (
         <div className="absolute bottom-6 inset-x-0 z-10 flex flex-col sm:flex-row items-center justify-between px-6 sm:px-12 text-[9px] font-mono tracking-mega text-luga-muted/70 dark:text-luga-darkMuted/70 uppercase gap-2 sm:gap-0">
-          <span>HIMALAYAN YAK WOOL & HANDLOOM DHAKA</span>
+          <span>HEAVYWEIGHT FRENCH TERRY & COMBED COTTON // 400+ GSM</span>
           <span className="text-luga-crimson dark:text-luga-gold">SYS // ONLINE</span>
-          <span>420–580 GSM ARTISANAL FORM</span>
+          <span>STREETWEAR SILHOUETTES // UNISEX FIT</span>
         </div>
       )}
     </div>

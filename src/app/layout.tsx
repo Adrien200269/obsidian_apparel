@@ -5,17 +5,20 @@ import { StoreProvider } from "@/lib/store-context";
 import { RouteLoadingIndicator } from "@/components/common/RouteLoadingIndicator";
 
 export const metadata: Metadata = {
-  title: "Obsidian Apparel // Contemporary Nepali Luxury Streetwear & Artisanal Fashion",
+  title: "Obsidian Apparel // Contemporary Kathmandu Streetwear",
   description:
-    "High-fashion South Asian contemporary editorial streetwear, handcrafted in Kathmandu Valley, Nepal. Kathmandu 2026. 420-580 GSM artisanal silhouettes, traditional handloom Dhaka and Yak wool blends.",
+    "Modern unisex streetwear and casual wear designed in Kathmandu. 240+ GSM dense combed tees, 400+ GSM French terry hoodies, and boxy urban silhouettes built for daily rotation. Kathmandu 2026.",
   keywords: [
     "Obsidian Apparel",
     "Obsidian",
     "Nepali Streetwear",
-    "Luxury Fashion Nepal",
-    "Kathmandu Fashion",
-    "Artisanal Handloom",
-    "South Asian Luxury",
+    "Kathmandu Streetwear",
+    "Streetwear Brand Nepal",
+    "Heavyweight Hoodie",
+    "Oversized Tees",
+    "Cargo Pants",
+    "Unisex Streetwear",
+    "Casual Wear",
   ],
 };
 

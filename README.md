@@ -1,6 +1,6 @@
-# Obsidian Apparel // Contemporary Nepali Luxury Streetwear & Artisanal Fashion
+# Obsidian Apparel // Modern Kathmandu Unisex Streetwear
 
-> High-fashion South Asian contemporary editorial interface and brutalist luxury streetwear aesthetic. Handcrafted in Patan & Kathmandu, Nepal. Kathmandu 2026.
+> Modern, unisex street and casual wear founded in Kathmandu. Engineered with custom heavyweight knits (240+ GSM dense combed cotton, 400+ GSM loopback French terry), boxy silhouettes, and daily durability. Kathmandu 2026.
 
 ---
 
@@ -14,12 +14,12 @@
 2. **GLOBAL WEBSITE IMAGE CONTROL CENTER (`/admin/site-media`)**:
    - Every single non-product visual slot on the entire website is editable and replaceable in real-time:
      - **Brand Assets**: Header Logo (Light/Dark), Favicon, Fonepay Merchant QR Code.
-     - **Homepage Frames**: Hero Banner (Desktop & Mobile), Editorial Split Banners (Handloom vs. Streetwear), Heritage Manifesto Banner, Lookbook Teaser Spread.
+     - **Homepage Frames**: Hero Banner (Desktop & Mobile), Editorial Split Banners (Hoodies vs. Tees & Cargos), Streetwear Ethos Story Banner, Lookbook Teaser Spread.
      - **Category Headers**: Outerwear, Knitwear, Shirts, Trousers.
-     - **About Atelier Slots**: Patan Workshop Portrait, Shuttle-Loom Weave Macro.
+     - **About Studio Slots**: Kathmandu Studio Portrait, Custom Heavyweight Knits Detail.
 
 3. **MADE FOR NEPAL (NPR `रू`)**:
-   - Currency: **Nepali Rupees (`NPR` / `Rs.`)** formatted across all price tags, cart subtotals, shipping tiers, and admin revenue KPIs (e.g., `NPR 18,500`).
+   - Currency: **Nepali Rupees (`NPR` / `Rs.`)** formatted across all price tags, cart subtotals, shipping tiers, and admin revenue KPIs (e.g., `NPR 8,500`).
    - Nepal delivery zone selector:
      - *Kathmandu Valley — Inside Ring Road (NPR 100 • Complimentary over NPR 10,000)*
      - *Kathmandu Valley — Outside Ring Road (NPR 150)*
@@ -46,20 +46,20 @@
   - Background: Deep Obsidian (`#0A0A0A`), Secondary Surface (`#141414`)
   - Ink: Crisp Bone White (`#F5F3EF`), Muted Ash (`#9A968E`)
   - Borders: Subtle Charcoal (`#262626`)
-- **Accents**: Himalayan Crimson (`#8B2616`) & Artisanal Patan Brass Gold (`#C2A265`).
+- **Accents**: Himalayan Crimson (`#8B2616`) & Street Brass Gold (`#C2A265`).
 
 ---
 
 ## 🚀 APPLICATION DIRECTORY & ROUTES
 
 ### 🛍️ User Storefront
-- **`/`**: Full-viewport hero campaign with editable CTAs, 4-column drop grid with quick size add on hover, editorial split banner (Handloom vs Heavyweight), numbered Volume showcase, interactive 35mm Lookbook "Shop the Look", and Patan Atelier manifesto.
-- **`/shop`**: Complete ready-to-wear archive with category, volume, size, and price filters in NPR, plus 2-column editorial vs 4-column archive grid toggle.
-- **`/collections/[slug]`**: Volume archive detail (e.g. `/collections/volume-1`, `/collections/core-archive`, `/collections/himalayan-winter`).
-- **`/product/[slug]`**: Multi-slot vertical gallery (Front, Back, Detail/Macro, Fit Reference), Nepal Size Guide Modal (inches & cm), WhatsApp concierge direct order link, and craftsmanship accordions.
+- **`/`**: Full-viewport hero campaign with editable CTAs, 4-column drop grid with quick size add on hover, editorial split banner (Hoodies vs Heavyweight Cargos), numbered Capsule showcase, interactive 35mm Lookbook "Shop the Look", and Streetwear Ethos story.
+- **`/shop`**: Complete ready-to-wear archive with category, capsule, size, and price filters in NPR, plus 2-column editorial vs 4-column archive grid toggle.
+- **`/collections/[slug]`**: Capsule drop archive detail (e.g. `/collections/capsule-01`, `/collections/core-capsule`, `/collections/urban-winter`).
+- **`/product/[slug]`**: Multi-slot vertical gallery (Front, Back, Detail/Macro, Fit Reference), Nepal Size Guide Modal (inches & cm), WhatsApp concierge direct order link, and streetwear fabric specs.
 - **`/lookbook`**: 35mm film spreads with "Shop the Look" garment tags.
 - **`/checkout`**: Nepal checkout form with zone calculation, Tole/Ward inputs, COD, and Fonepay QR code payment.
-- **`/about`**: The Valley Manifesto, Patan handloom heritage, and Newar pit-loom weaving story.
+- **`/about`**: Built for the Pavement, Cut for Every Day. Why We Build in Nepal, the Three Pillars (Heavyweight Density, Equal Duality & Fit, Small-Batch Drops), and Kathmandu Studio info.
 
 ### 🛡️ Admin CMS
 - **`/admin`**: Studio Dashboard with real-time NPR revenue, orders, active garments, and low stock warnings.

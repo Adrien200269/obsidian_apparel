@@ -90,23 +90,23 @@ export const Footer: React.FC = () => {
           </div>
           <ul className="space-y-2 text-[#A3A09A] text-[11px] tracking-wider">
             <li>
-              <Link href="/collections/volume-1" className="hover:text-white transition-colors">
-                Volume I: Kathmandu Archive
+              <Link href="/collections/capsule-01" className="hover:text-white transition-colors">
+                Capsule 01: Street Essentials
               </Link>
             </li>
             <li>
-              <Link href="/collections/core-archive" className="hover:text-white transition-colors">
-                Core Streetwear Capsule (420 GSM)
+              <Link href="/collections/core-capsule" className="hover:text-white transition-colors">
+                The Core Streetwear Capsule (400+ GSM)
               </Link>
             </li>
             <li>
-              <Link href="/collections/himalayan-winter" className="hover:text-white transition-colors">
-                Himalayan Monolith // Winter
+              <Link href="/collections/urban-winter" className="hover:text-white transition-colors">
+                Urban Winter Monolith // Capsule 02
               </Link>
             </li>
             <li>
               <Link href="/lookbook" className="hover:text-white transition-colors">
-                Lookbook Film Archive
+                35mm Street Lookbook
               </Link>
             </li>
           </ul>
@@ -119,7 +119,7 @@ export const Footer: React.FC = () => {
           <ul className="space-y-2 text-[#A3A09A] text-[11px] tracking-wider">
             <li>
               <Link href="/about" className="hover:text-white transition-colors">
-                The Valley Manifesto & Craft
+                Brand Story & Streetwear Ethos
               </Link>
             </li>
             <li>

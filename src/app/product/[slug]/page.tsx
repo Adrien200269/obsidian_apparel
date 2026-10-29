@@ -362,8 +362,8 @@ export default function ProductDetailPage() {
                   {openAccordion === "care" && (
                     <div className="pt-2 text-luga-muted dark:text-luga-darkMuted leading-relaxed space-y-1.5 text-[11px]">
                       <p>• Cold hand wash or delicate cycle inside out with neutral detergent.</p>
-                      <p>• Do not tumble dry. Flat dry in shade to preserve architectural drape.</p>
-                      <p>• Steam iron on reverse at low heat. Do not iron directly on Dhaka handloom trims.</p>
+                      <p>• Do not tumble dry. Flat dry in shade to preserve fleece density and shape.</p>
+                      <p>• Steam iron on reverse at low heat. Do not iron directly on graphic prints or trims.</p>
                     </div>
                   )}
                 </div>
@@ -434,7 +434,7 @@ export default function ProductDetailPage() {
               NEPAL & GLOBAL FIT GUIDE
             </h3>
             <p className="font-mono text-xs text-luga-muted dark:text-luga-darkMuted mb-6 leading-relaxed">
-              All Obsidian Apparel garments are tailored in an intentional relaxed, dropped-shoulder luxury silhouette. For a standard fit, order your true size. For a tailored slim fit, consider sizing down.
+              All Obsidian Apparel streetwear pieces are designed in an intentional relaxed, dropped-shoulder unisex boxy fit. Order your true size for a clean modern street drape, or size up for an exaggerated oversized look.
             </p>
 
             <div className="overflow-x-auto">

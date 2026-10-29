@@ -71,14 +71,14 @@ export const Header: React.FC = () => {
                 onMouseLeave={() => setCollectionsDropdown(false)}
               >
                 <button className="flex items-center gap-1 hover:text-luga-ink dark:hover:text-luga-darkInk transition-colors">
-                  <span>VOLUMES</span>
+                  <span>CAPSULES</span>
                   <ChevronDown className="w-3 h-3 transition-transform group-hover:rotate-180" />
                 </button>
 
                 {collectionsDropdown && (
                   <div className="absolute top-full left-0 w-64 bg-luga-bg dark:bg-luga-darkBg border border-luga-border dark:border-luga-darkBorder shadow-2xl py-3 z-50 animate-in fade-in slide-in-from-top-1 duration-200">
                     <div className="px-4 py-1 text-[9px] font-mono text-luga-muted/60 dark:text-luga-darkMuted/60 border-b border-luga-border/50 dark:border-luga-darkBorder/50 mb-2">
-                      CURATED ARCHIVES
+                      CURATED CAPSULES
                     </div>
                     {collections.map((col) => (
                       <Link
@@ -215,7 +215,7 @@ export const Header: React.FC = () => {
                 {/* Numbered Volumes */}
                 <div className="space-y-3">
                   <div className="text-[10px] text-luga-crimson dark:text-luga-gold uppercase tracking-mega pb-1 border-b border-luga-border/50 dark:border-luga-darkBorder/50 font-bold">
-                    NUMBERED VOLUMES
+                    CAPSULE DROPS
                   </div>
                   <div className="space-y-2">
                     {collections.map((col) => (
@@ -237,7 +237,7 @@ export const Header: React.FC = () => {
                 {/* Garment Categories */}
                 <div className="space-y-3">
                   <div className="text-[10px] text-luga-crimson dark:text-luga-gold uppercase tracking-mega pb-1 border-b border-luga-border/50 dark:border-luga-darkBorder/50 font-bold">
-                    GARMENT CATEGORIES
+                    STREETWEAR CATEGORIES
                   </div>
                   <div className="grid grid-cols-2 gap-2 text-[11px] tracking-wider uppercase">
                     <Link
@@ -259,21 +259,21 @@ export const Header: React.FC = () => {
                       onClick={() => setMenuDrawerOpen(false)}
                       className="p-2 border border-luga-border dark:border-luga-darkBorder hover:border-luga-ink dark:hover:border-luga-darkInk text-luga-ink dark:text-luga-darkInk transition-colors"
                     >
-                      Knitwear
+                      Hoodies & Knits
                     </Link>
                     <Link
                       href="/shop?category=shirts"
                       onClick={() => setMenuDrawerOpen(false)}
                       className="p-2 border border-luga-border dark:border-luga-darkBorder hover:border-luga-ink dark:hover:border-luga-darkInk text-luga-ink dark:text-luga-darkInk transition-colors"
                     >
-                      Shirts & Tees
+                      Tees & Shirts
                     </Link>
                     <Link
                       href="/shop?category=trousers"
                       onClick={() => setMenuDrawerOpen(false)}
                       className="p-2 border border-luga-border dark:border-luga-darkBorder hover:border-luga-ink dark:hover:border-luga-darkInk text-luga-ink dark:text-luga-darkInk transition-colors"
                     >
-                      Trousers
+                      Cargos & Bottoms
                     </Link>
                     <Link
                       href="/lookbook"
@@ -288,7 +288,7 @@ export const Header: React.FC = () => {
                 {/* Editorial & Atelier */}
                 <div className="space-y-3">
                   <div className="text-[10px] text-luga-crimson dark:text-luga-gold uppercase tracking-mega pb-1 border-b border-luga-border/50 dark:border-luga-darkBorder/50 font-bold">
-                    EDITORIAL & ATELIER
+                    BRAND & EDITORIAL
                   </div>
                   <div className="space-y-1.5 text-xs">
                     <Link
@@ -296,7 +296,7 @@ export const Header: React.FC = () => {
                       onClick={() => setMenuDrawerOpen(false)}
                       className="block py-1 text-luga-ink dark:text-luga-darkInk hover:underline flex items-center justify-between"
                     >
-                      <span>The Valley Manifesto</span>
+                      <span>Brand Story & Ethos</span>
                       <ArrowRight className="w-3.5 h-3.5" />
                     </Link>
                     <Link
@@ -304,7 +304,7 @@ export const Header: React.FC = () => {
                       onClick={() => setMenuDrawerOpen(false)}
                       className="block py-1 text-luga-ink dark:text-luga-darkInk hover:underline flex items-center justify-between"
                     >
-                      <span>35mm Film Archive</span>
+                      <span>35mm Street Lookbook</span>
                       <ArrowRight className="w-3.5 h-3.5" />
                     </Link>
                     <Link
@@ -321,7 +321,7 @@ export const Header: React.FC = () => {
 
               {/* Drawer Footer */}
               <div className="p-6 border-t border-luga-border dark:border-luga-darkBorder bg-luga-surface/50 dark:bg-luga-darkSurface/50 space-y-2 font-mono text-[10px] text-luga-muted">
-                <div>PATAN ATELIER // KATHMANDU VALLEY</div>
+                <div>KATHMANDU STUDIO // 27.7° N</div>
                 <div>CURRENCY: NPR (रू) • CASH ON DELIVERY READY</div>
               </div>
             </div>

@@ -23,10 +23,10 @@ export default function CollectionDetailPage() {
       <StorefrontLayout>
         <div className="max-w-4xl mx-auto py-32 px-6 text-center space-y-4">
           <h1 className="font-editorial text-4xl text-luga-ink dark:text-luga-darkInk">
-            Volume Archive Not Found
+            Capsule Drop Not Found
           </h1>
           <p className="font-mono text-xs text-luga-muted dark:text-luga-darkMuted uppercase tracking-wider">
-            The requested collection has not been released or has been archived.
+            The requested streetwear capsule has not been released or has been archived.
           </p>
           <Link
             href="/shop"
@@ -69,13 +69,13 @@ export default function CollectionDetailPage() {
             className="inline-flex items-center gap-2 font-mono text-[10px] tracking-mega uppercase text-luga-gold hover:underline"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
-            <span>BACK TO ALL ARCHIVES</span>
+            <span>BACK TO ALL STREETWEAR</span>
           </Link>
 
           <div className="flex flex-wrap items-center gap-2 font-mono text-xs tracking-mega uppercase text-luga-gold">
             <span className="flex items-center gap-1.5">
               <Compass className="w-3.5 h-3.5" />
-              <span>{collection.volumeNumber} // LIMITED RUN</span>
+              <span>{collection.volumeNumber} // LIMITED DROP</span>
             </span>
             {videoInfo.isVideo && (
               <span className="px-2 py-0.5 bg-black/75 border border-white/20 text-[9px] text-white flex items-center gap-1 shadow-sm">
@@ -99,16 +99,16 @@ export default function CollectionDetailPage() {
       <section className="max-w-[1920px] mx-auto px-4 sm:px-8 py-10 sm:py-24">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-luga-border dark:border-luga-darkBorder pb-4 mb-8 sm:mb-10 font-mono text-xs gap-1">
           <span className="uppercase tracking-wider text-luga-muted dark:text-luga-darkMuted">
-            {collectionProducts.length} GARMENTS IN THIS VOLUME
+            {collectionProducts.length} GARMENTS IN THIS CAPSULE
           </span>
           <span className="text-luga-crimson dark:text-luga-gold uppercase tracking-mega">
-            KATHMANDU ATELIER
+            KATHMANDU STUDIO // 27.7° N
           </span>
         </div>
 
         {collectionProducts.length === 0 ? (
           <div className="py-20 text-center text-luga-muted dark:text-luga-darkMuted font-editorial text-2xl">
-            Garments for this volume are currently being tailored in Patan. Check back soon.
+            Garments for this capsule are currently in production. Check back soon.
           </div>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 sm:gap-x-8 gap-y-10 sm:gap-y-14">

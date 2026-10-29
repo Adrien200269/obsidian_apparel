@@ -413,16 +413,16 @@ export default function AdminHomePage() {
                 SECTION 03
               </span>
               <h2 className="text-sm uppercase tracking-mega font-bold text-luga-ink dark:text-luga-darkInk">
-                DUAL EDITORIAL SPLIT BANNERS (HANDLOOM & HEAVYWEIGHT CUTS)
+                DUAL EDITORIAL SPLIT BANNERS (HEAVYWEIGHT FLEECE & STREETWEAR CUTS)
               </h2>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {/* Left Frame: Handloom Craft */}
+              {/* Left Frame: Heavyweight Fleece */}
               <div className="p-5 border border-luga-border/70 dark:border-luga-darkBorder/70 space-y-4">
                 <div className="flex items-center justify-between border-b border-luga-border/40 pb-2">
                   <span className="font-bold text-[11px] uppercase text-luga-crimson dark:text-luga-gold">
-                    FRAME A // ARTISANAL HANDLOOM
+                    FRAME A // HEAVYWEIGHT HOODIES
                   </span>
                   <span className="text-[9px] text-luga-muted">SLOT: SPLIT_BANNER_LEFT</span>
                 </div>
