@@ -130,7 +130,7 @@ export const Header: React.FC = () => {
                 </span>
               )}
               <span className="font-mono text-[7px] sm:text-[8.5px] tracking-[0.22em] sm:tracking-[0.28em] uppercase text-luga-muted dark:text-luga-darkMuted -mt-0.5 opacity-80 font-light">
-                ESTABLISHED 2026
+                KATHMANDU 2026
               </span>
             </Link>
           </div>

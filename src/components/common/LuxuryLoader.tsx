@@ -14,7 +14,7 @@ interface LuxuryLoaderProps {
 export const LuxuryLoader: React.FC<LuxuryLoaderProps> = ({
   fullScreen = false,
   label = "RETRIEVING ARCHIVAL SILHOUETTES...",
-  sublabel = "KATHMANDU ATELIER // ESTABLISHED 2026",
+  sublabel = "KATHMANDU ATELIER // 2026",
   className,
 }) => {
   return (

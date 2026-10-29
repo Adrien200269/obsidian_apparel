@@ -89,7 +89,7 @@ export default function AdminLoginPage() {
               OBSIDIAN APPAREL
             </span>
             <span className="block font-mono text-[8px] tracking-mega uppercase text-luga-muted font-light">
-              ESTABLISHED 2026
+              KATHMANDU 2026
             </span>
           </div>
         </Link>

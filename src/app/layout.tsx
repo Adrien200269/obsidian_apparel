@@ -7,7 +7,7 @@ import { RouteLoadingIndicator } from "@/components/common/RouteLoadingIndicator
 export const metadata: Metadata = {
   title: "Obsidian Apparel // Contemporary Nepali Luxury Streetwear & Artisanal Fashion",
   description:
-    "High-fashion South Asian contemporary editorial streetwear, handcrafted in Kathmandu Valley, Nepal. Established 2026. 420-580 GSM artisanal silhouettes, traditional handloom Dhaka and Yak wool blends.",
+    "High-fashion South Asian contemporary editorial streetwear, handcrafted in Kathmandu Valley, Nepal. Kathmandu 2026. 420-580 GSM artisanal silhouettes, traditional handloom Dhaka and Yak wool blends.",
   keywords: [
     "Obsidian Apparel",
     "Obsidian",

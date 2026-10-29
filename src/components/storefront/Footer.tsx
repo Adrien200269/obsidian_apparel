@@ -72,7 +72,7 @@ export const Footer: React.FC = () => {
               OBSIDIAN APPAREL
             </div>
             <div className="font-mono text-[9px] sm:text-[10px] tracking-[0.25em] uppercase text-luga-gold/90 font-light mt-1">
-              ESTABLISHED 2026
+              KATHMANDU 2026
             </div>
           </div>
           <p className="text-[#A3A09A] leading-relaxed text-[11px] tracking-wider">

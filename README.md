@@ -1,6 +1,6 @@
 # Obsidian Apparel // Contemporary Nepali Luxury Streetwear & Artisanal Fashion
 
-> High-fashion South Asian contemporary editorial interface inspired by the typography, pacing, and brutalist luxury aesthetic of **[row.rastah.co](https://row.rastah.co/)**. Handcrafted in Patan & Kathmandu, Nepal. Established 2026.
+> High-fashion South Asian contemporary editorial interface inspired by the typography, pacing, and brutalist luxury aesthetic of **[row.rastah.co](https://row.rastah.co/)**. Handcrafted in Patan & Kathmandu, Nepal. Kathmandu 2026.
 
 ---
 
