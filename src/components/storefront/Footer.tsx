@@ -38,14 +38,14 @@ export const Footer: React.FC = () => {
             {subscribed ? (
               <div className="w-full py-3 px-4 bg-white/10 border border-luga-gold text-luga-gold font-mono text-xs flex items-center justify-center gap-2">
                 <Check className="w-4 h-4" />
-                <span>WELCOME TO THE OBSIDIAN ENCLAVE ARCHIVE</span>
+                <span>WELCOME TO THE ARCHIVE // YOU ARE ON THE LIST</span>
               </div>
             ) : (
               <>
                 <input
                   type="email"
                   required
-                  placeholder="ENTER YOUR EMAIL FOR ARCHIVE ACCESS"
+                  placeholder="ENTER YOUR EMAIL FOR EARLY ACCESS"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="flex-1 bg-white/5 border border-white/20 px-4 py-3 text-xs font-mono text-white placeholder:text-white/40 focus:outline-none focus:border-luga-gold transition-colors"
@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
                   type="submit"
                   className="px-6 py-3 bg-white text-black font-mono text-xs uppercase tracking-ultra hover:bg-luga-gold hover:text-black transition-colors flex items-center justify-center gap-2"
                 >
-                  <span>JOIN</span>
+                  <span>JOIN THE LIST</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
               </>

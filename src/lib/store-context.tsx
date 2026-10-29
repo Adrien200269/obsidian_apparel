@@ -127,12 +127,12 @@ interface StoreContextType {
 const StoreContext = createContext<StoreContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  SLOTS: "obsidian_media_slots_v1",
+  SLOTS: "obsidian_media_slots_v2",
   PRODUCTS: "obsidian_products_v1",
   COLLECTIONS: "obsidian_collections_v1",
   LOOKBOOK: "obsidian_lookbook_v1",
   ORDERS: "obsidian_orders_v1",
-  SETTINGS: "obsidian_settings_v1",
+  SETTINGS: "obsidian_settings_v2",
   CART: "obsidian_cart_v1",
   ADMIN_SESSION: "obsidian_admin_session_v1",
   SYNC_TIMESTAMP: "obsidian_sync_timestamp",

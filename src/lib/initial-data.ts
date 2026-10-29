@@ -25,7 +25,7 @@ export const INITIAL_SITE_SETTINGS: SiteSettings = {
   whatsappNumber: "+977 9801234567",
   instagramHandle: "@obsidian.apparel",
   studioAddress:
-    "Patan Durbar Craft Quarter, Lalitpur, Kathmandu Valley, Nepal",
+    "Kathmandu, Nepal // Mon – Sat, 11:00 AM – 7:00 PM",
   fonepayQrImageUrl: null,
 };
 
@@ -93,14 +93,14 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
   HERITAGE_STORY_BANNER: {
     id: "slot-heritage-story",
     slotKey: "HERITAGE_STORY_BANNER",
-    label: "Brand Manifesto & Patan Craftsmanship Feature",
+    label: "Brand Story & Kathmandu Streetwear Feature",
     pageSection: "ABOUT",
     imageUrl: null,
-    altText: "Master Newar Craftsman on Wooden Pit-Loom",
+    altText: "Obsidian Apparel Kathmandu Streetwear",
     aspectRatio: "16:9",
     resolution: "2000×1125px Landscape",
-    heading: "THE VALLEY MANIFESTO",
-    subHeading: "Reinterpreting century-old Newar craftsmanship through contemporary oversized brutalism.",
+    heading: "BUILT FOR THE PAVEMENT. CUT FOR EVERY DAY.",
+    subHeading: "Heavyweight street essentials designed in the valley, engineered for daily motion.",
     ctaText: "READ OUR STORY",
     ctaLink: "/about",
     updatedAt: new Date().toISOString(),
@@ -189,21 +189,21 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     altText: "Obsidian Apparel Kathmandu Atelier & Design Studio",
     aspectRatio: "4:5",
     resolution: "1200×1500px Portrait",
-    heading: "THE ATELIER // PATAN",
-    subHeading: "Where Himalayan raw materials meet modern garment engineering.",
+    heading: "THE ATELIER // KATHMANDU",
+    subHeading: "Where heavyweight knits meet clean urban unisex engineering.",
     updatedAt: new Date().toISOString(),
   },
   ABOUT_CRAFT_WEAVE: {
     id: "slot-about-craft",
     slotKey: "ABOUT_CRAFT_WEAVE",
-    label: "About Page - Handloom Close-Up Macro Frame",
+    label: "About Page - Custom Heavyweight Knits Frame",
     pageSection: "ABOUT",
     imageUrl: null,
-    altText: "Handloom Weaving Shuttles in Nepal",
+    altText: "Custom Heavyweight Knits & Dense French Terry",
     aspectRatio: "4:5",
     resolution: "1200×1500px Portrait",
-    heading: "HERITAGE HANDLOOM",
-    subHeading: "Every meter woven on traditional Newari pit-looms takes 6 hours of manual labor.",
+    heading: "CUSTOM HEAVYWEIGHT KNITS",
+    subHeading: "400+ GSM loopback French terry and dense combed cotton engineered to hold shape.",
     updatedAt: new Date().toISOString(),
   },
   FONEPAY_QR_CODE: {
@@ -228,7 +228,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     altText: "Obsidian Apparel About Story CMS Payload",
     aspectRatio: "16:9",
     resolution: "CMS Payload",
-    heading: "THE VALLEY MANIFESTO",
+    heading: "BUILT FOR THE PAVEMENT. CUT FOR EVERY DAY.",
     subHeading: null, // JSON payload stored here if customized
     updatedAt: new Date().toISOString(),
   },
@@ -287,43 +287,43 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
 };
 
 export const DEFAULT_ABOUT_CONTENT: AboutPageData = {
-  manifestoTag: "KATHMANDU VALLEY // ESTABLISHED 2026",
-  manifestoHeading: "THE VALLEY MANIFESTO",
+  manifestoTag: "KATHMANDU // 27.7° N",
+  manifestoHeading: "BUILT FOR THE PAVEMENT. CUT FOR EVERY DAY.",
   manifestoSubHeading:
-    "Reinterpreting sacred Newar architecture and centuries-old pit-loom handcraft through the rebellious lens of luxury brutalist streetwear.",
+    "Heavyweight street essentials designed in the valley, engineered for daily motion.",
 
   narrativeTag: "ORIGINS & ETHOS",
   narrativeHeading: "Why We Build in Nepal",
   narrativeParagraph1:
-    "For decades, global luxury fashion has looked toward Paris, Milan, and Tokyo for creative authority, while extracting raw cashmere, pashmina, and handloom cotton from South Asia under silent private labels.",
+    "Obsidian Apparel was created out of a simple frustration: finding street-ready clothing in Nepal that balances heavy fabric, clean silhouettes, and real durability. Started as an equal creative partnership in Kathmandu, we set out to build garments that bridge raw urban aesthetics with effortless casual wear.",
   narrativeParagraph2:
-    "Obsidian Apparel was born to subvert that hierarchy. Based in the ancient Newar artisan quarter of Patan (Lalitpur), we engineer contemporary streetwear that is entirely conceived, woven, tailored, and finished within Nepal. We do not celebrate shallow nostalgia; instead, we treat our cultural heritage as a living, evolving architectural framework.",
+    "We don’t use generic market blanks. Every drop is constructed from custom heavyweight knits—dense French terry, structured high-GSM combed cotton, and relaxed boxy cuts that hold their shape wash after wash. We design unisex pieces cut to drape cleanly on any frame, whether layered up for Kathmandu winters or worn solo on the move.",
   narrativeParagraph3:
-    "Our garments pair heavy 420–580 GSM organic cotton terry and raw Himalayan hemp with intricate Dhaka brocades and boiled Mustang yak fibers. Each piece takes days of meticulous hand manipulation on century-old wooden shuttle looms.",
+    "No throwaway seasonal trends. Obsidian runs on numbered capsule releases, produced locally in limited batches. Sourced, cut, and finished right here in the valley.",
 
   pillarsTag: "TECHNICAL DISCIPLINE",
-  pillarsHeading: "THE THREE OBSIDIAN PILLARS",
+  pillarsHeading: "THE THREE PILLARS",
 
-  pillar1Badge: "01 // HEAVYWEIGHT ARCHITECTURE",
-  pillar1Title: "420–580 GSM Custom Milling",
+  pillar1Badge: "01",
+  pillar1Title: "Heavyweight Density",
   pillar1Description:
-    "We never use flimsy commodity blanks. All jerseys, terries, and twills are custom knit or loom-woven specifically for our dropped-shoulder, brutalist drape.",
+    "240+ GSM dense combed cotton tees and 400+ GSM loopback French terry hoodies. Solid structural drape with a soft hand-feel built for daily rotation.",
 
-  pillar2Badge: "02 // INDIGENOUS FIBERS",
-  pillar2Title: "Mustang Yak & Handloom Dhaka",
+  pillar2Badge: "02",
+  pillar2Title: "Equal Duality & Fit",
   pillar2Description:
-    "Combed high-altitude yak down, wild Himalayan hemp, and geometric Palpali Dhaka panels woven by multigenerational master weavers across Lalitpur and Bhaktapur.",
+    "Co-founded as a 50/50 partnership, every piece is prototyped and wear-tested across both male and female fits before entering production. True modern unisex silhouettes.",
 
-  pillar3Badge: "03 // SLOW NUMBERED ARCHIVES",
-  pillar3Title: "Zero Waste & Unhurried Drops",
+  pillar3Badge: "03",
+  pillar3Title: "Small-Batch Drops",
   pillar3Description:
-    "We release garments in numbered volumes of no more than 30–50 pieces per silhouette. Leftover textile selvages are repurposed into interior garment trims.",
+    "Produced in limited volumes to maintain stitch precision and eliminate overstock waste. When a capsule drop sells out, it enters the archive.",
 
-  salonHeading: "Visit the Patan Salon",
+  salonHeading: "VISIT THE KTM STUDIO",
   salonDescription:
-    "Experience the raw tactile weight of hand-spun yak fibers, try on structured silhouettes, and consult with our atelier tailors in Lalitpur.",
-  salonCtaText: "EXPLORE READY-TO-WEAR ARCHIVE",
-  salonCtaLink: "/shop",
+    "Walk-ins welcome for sizing trials, archive pickups, and local pickup orders.",
+  salonCtaText: "FIND US ON GOOGLE MAPS",
+  salonCtaLink: "https://maps.google.com/?q=Kathmandu,Nepal",
 };
 
 export const DEFAULT_HOMEPAGE_CONTENT: HomePageData = {
@@ -412,13 +412,13 @@ export const DEFAULT_LOOKBOOK_CONTENT: LookbookPageData = {
 };
 
 export const DEFAULT_FOOTER_CONTENT: FooterPageData = {
-  enclaveTag: "OBSIDIAN ENCLAVE // PRIVATE ARCHIVE ACCESS",
-  enclaveHeading: "Become a Patron of Contemporary Nepali Streetwear",
+  enclaveTag: "NEXT CAPSULE INCOMING",
+  enclaveHeading: "JOIN THE ARCHIVE",
   enclaveDescription:
-    "Gain priority invitations to capsule drops, bespoke Dhaka made-to-order garments, and private salon viewings in Patan.",
+    "Drop 01 is currently in production. Drop your email to get early access links and private restock notifications before public release.",
   brandDescription:
-    "Contemporary Nepali luxury streetwear fusing 17th-century Patan handloom artistry with heavy Japanese-grade brutalist garment architecture.",
-  craftQuarterLocation: "PATAN DURBAR CRAFT QUARTER // KATHMANDU VALLEY",
+    "Modern, unisex street and casual wear founded in Kathmandu. Engineered with custom heavyweight knits, boxy cuts, and daily durability.",
+  craftQuarterLocation: "KATHMANDU, NEPAL // MON – SAT, 11:00 AM – 7:00 PM",
   copyrightText: "OBSIDIAN APPAREL KATHMANDU. ALL ARCHIVAL RIGHTS RESERVED.",
 };
 

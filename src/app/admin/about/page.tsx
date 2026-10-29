@@ -247,7 +247,7 @@ export default function AdminAboutPage() {
                   type="text"
                   value={formData.manifestoTag}
                   onChange={(e) => handleFieldChange("manifestoTag", e.target.value)}
-                  placeholder="e.g. KATHMANDU VALLEY // ESTABLISHED 2026"
+                  placeholder="e.g. KATHMANDU // 27.7° N"
                   className="w-full bg-transparent border border-luga-border p-2.5 text-luga-ink dark:text-luga-darkInk focus:outline-none"
                 />
               </div>
@@ -260,7 +260,7 @@ export default function AdminAboutPage() {
                   type="text"
                   value={formData.manifestoHeading}
                   onChange={(e) => handleFieldChange("manifestoHeading", e.target.value)}
-                  placeholder="e.g. THE VALLEY MANIFESTO"
+                  placeholder="e.g. BUILT FOR THE PAVEMENT. CUT FOR EVERY DAY."
                   className="w-full bg-transparent border border-luga-border p-2.5 text-luga-ink dark:text-luga-darkInk focus:outline-none font-editorial text-lg"
                 />
               </div>
@@ -323,7 +323,7 @@ export default function AdminAboutPage() {
 
             <div className="space-y-1 pt-2">
               <label className="text-[10px] text-luga-muted uppercase font-bold">
-                PARAGRAPH 01 (INDUSTRY CRITIQUE / GLOBAL CONTEXT)
+                PARAGRAPH 01 (THE BRAND ORIGIN)
               </label>
               <textarea
                 rows={3}
@@ -335,7 +335,7 @@ export default function AdminAboutPage() {
 
             <div className="space-y-1">
               <label className="text-[10px] text-luga-muted uppercase font-bold">
-                PARAGRAPH 02 (OBSIDIAN APPAREL ORIGIN & NEWAR ARCHITECTURAL HERITAGE)
+                PARAGRAPH 02 (CUT & QUALITY)
               </label>
               <textarea
                 rows={4}
@@ -347,7 +347,7 @@ export default function AdminAboutPage() {
 
             <div className="space-y-1">
               <label className="text-[10px] text-luga-muted uppercase font-bold">
-                PARAGRAPH 03 (GARMENT CRAFT & PIT-LOOM WEAVING PROCESS)
+                PARAGRAPH 03 (THE DROP PHILOSOPHY)
               </label>
               <textarea
                 rows={3}
@@ -431,7 +431,7 @@ export default function AdminAboutPage() {
                 <label className="text-[10px] text-luga-muted uppercase">FRAME TITLE</label>
                 <input
                   type="text"
-                  value={studioSlot?.heading || "THE ATELIER // PATAN"}
+                  value={studioSlot?.heading || "THE ATELIER // KATHMANDU"}
                   onChange={(e) =>
                     updateMediaSlot("ABOUT_STUDIO_PORTRAIT", { heading: e.target.value })
                   }
@@ -524,7 +524,7 @@ export default function AdminAboutPage() {
                 <label className="text-[10px] text-luga-muted uppercase">FRAME CAPTION</label>
                 <input
                   type="text"
-                  value={craftSlot?.subHeading || "Every meter woven on traditional Newari pit-looms takes 6 hours of manual labor."}
+                  value={craftSlot?.subHeading || "400+ GSM loopback French terry and dense combed cotton engineered to hold shape."}
                   onChange={(e) =>
                     updateMediaSlot("ABOUT_CRAFT_WEAVE", { subHeading: e.target.value })
                   }
@@ -569,7 +569,7 @@ export default function AdminAboutPage() {
                   type="text"
                   value={formData.pillarsHeading}
                   onChange={(e) => handleFieldChange("pillarsHeading", e.target.value)}
-                  placeholder="e.g. THE THREE OBSIDIAN PILLARS"
+                  placeholder="e.g. THE THREE PILLARS"
                   className="w-full bg-transparent border border-luga-border p-2 text-xs"
                 />
               </div>
@@ -672,7 +672,7 @@ export default function AdminAboutPage() {
           </div>
         </section>
 
-        {/* 5. PATAN SALON VISIT CTA */}
+        {/* 5. KTM STUDIO VISIT CTA */}
         <section className="p-6 bg-luga-bg dark:bg-[#0F0F0F] border border-luga-border dark:border-luga-darkBorder space-y-6">
           <div className="border-b border-luga-border/60 pb-3 flex items-center justify-between">
             <div>
@@ -680,7 +680,7 @@ export default function AdminAboutPage() {
                 SECTION 05
               </span>
               <h2 className="font-editorial text-2xl text-luga-ink dark:text-luga-darkInk uppercase">
-                PATAN SALON VISIT & FOOTER CTA
+                KTM STUDIO VISIT & LOCATION CTA
               </h2>
             </div>
             <MapPin className="w-5 h-5 text-luga-gold" />
@@ -695,7 +695,7 @@ export default function AdminAboutPage() {
                 type="text"
                 value={formData.salonHeading}
                 onChange={(e) => handleFieldChange("salonHeading", e.target.value)}
-                placeholder="e.g. Visit the Patan Salon"
+                placeholder="e.g. VISIT THE KTM STUDIO"
                 className="w-full bg-transparent border border-luga-border p-2.5 text-luga-ink dark:text-luga-darkInk focus:outline-none"
               />
             </div>
