@@ -5,11 +5,12 @@ import { StoreProvider } from "@/lib/store-context";
 import { RouteLoadingIndicator } from "@/components/common/RouteLoadingIndicator";
 
 export const metadata: Metadata = {
-  title: "LUGA // Contemporary Nepali Luxury Streetwear & Artisanal Fashion",
+  title: "Obsidian Apparel // Contemporary Nepali Luxury Streetwear & Artisanal Fashion",
   description:
-    "High-fashion South Asian contemporary editorial streetwear, handcrafted in Kathmandu Valley, Nepal. 420-580 GSM artisanal silhouettes, traditional handloom Dhaka and Yak wool blends.",
+    "High-fashion South Asian contemporary editorial streetwear, handcrafted in Kathmandu Valley, Nepal. Established 2026. 420-580 GSM artisanal silhouettes, traditional handloom Dhaka and Yak wool blends.",
   keywords: [
-    "LUGA",
+    "Obsidian Apparel",
+    "Obsidian",
     "Nepali Streetwear",
     "Luxury Fashion Nepal",
     "Kathmandu Fashion",

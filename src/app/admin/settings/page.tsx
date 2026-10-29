@@ -244,7 +244,7 @@ export default function AdminSettingsPage() {
               onClick={() => {
                 if (confirm("Reset all store products, orders, media slots, and settings to factory defaults?")) {
                   resetAllToDefault();
-                  alert("LUGA store restored to default archival state.");
+                  alert("Obsidian Apparel store restored to default archival state.");
                   window.location.reload();
                 }
               }}

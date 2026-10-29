@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
 
   return (
     <footer className="w-full bg-[#111111] dark:bg-[#0D0D0D] text-[#E5E3DF] border-t border-black/40 dark:border-white/10 transition-colors">
-      {/* LUGA ENCLAVE / COMMUNITY BANNER */}
+      {/* OBSIDIAN ENCLAVE / COMMUNITY BANNER */}
       <div className="border-b border-white/10 py-12 sm:py-16 px-4 sm:px-12">
         <div className="max-w-4xl mx-auto text-center space-y-4">
           <span className="font-mono text-[10px] tracking-mega uppercase text-luga-gold">
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
             {subscribed ? (
               <div className="w-full py-3 px-4 bg-white/10 border border-luga-gold text-luga-gold font-mono text-xs flex items-center justify-center gap-2">
                 <Check className="w-4 h-4" />
-                <span>WELCOME TO THE LUGA ENCLAVE ARCHIVE</span>
+                <span>WELCOME TO THE OBSIDIAN ENCLAVE ARCHIVE</span>
               </div>
             ) : (
               <>
@@ -67,8 +67,13 @@ export const Footer: React.FC = () => {
       <div className="max-w-[1920px] mx-auto px-4 sm:px-12 py-12 sm:py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-12 font-mono text-xs">
         {/* Brand Column */}
         <div className="space-y-4">
-          <div className="font-editorial text-3xl uppercase tracking-widest text-white">
-            LUGA
+          <div>
+            <div className="font-editorial text-2xl sm:text-3xl uppercase tracking-widest text-white">
+              OBSIDIAN APPAREL
+            </div>
+            <div className="font-mono text-[9px] sm:text-[10px] tracking-[0.25em] uppercase text-luga-gold/90 font-light mt-1">
+              ESTABLISHED 2026
+            </div>
           </div>
           <p className="text-[#A3A09A] leading-relaxed text-[11px] tracking-wider">
             {footerContent.brandDescription}

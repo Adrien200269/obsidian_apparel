@@ -134,7 +134,7 @@ export default function CheckoutPage() {
                   slotKey="FONEPAY_QR_CODE"
                   aspectRatio="1:1"
                   resolution="800×800px"
-                  alt="LUGA Official Fonepay QR"
+                  alt="Obsidian Apparel Official Fonepay QR"
                   editorialBadge="FONEPAY QR SLOT"
                 />
               </div>

@@ -85,7 +85,7 @@ function ShopContent() {
             slotKey={bannerSlotKey}
             aspectRatio="21:9"
             resolution="2560×1080px"
-            alt={bannerSlot?.heading || "LUGA Shop Archive"}
+            alt={bannerSlot?.heading || "Obsidian Apparel Shop Archive"}
             className="w-full h-full border-none"
           />
           <div className="absolute inset-0 bg-black/50 dark:bg-black/60 pointer-events-none" />

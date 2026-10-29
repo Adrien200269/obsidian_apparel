@@ -23,7 +23,7 @@ export const INITIAL_SITE_SETTINGS: SiteSettings = {
   shippingOutsideValleyNpr: 250,
   freeShippingThresholdNpr: 10000,
   whatsappNumber: "+977 9801234567",
-  instagramHandle: "@luga.studio",
+  instagramHandle: "@obsidian.apparel",
   studioAddress:
     "Patan Durbar Craft Quarter, Lalitpur, Kathmandu Valley, Nepal",
   fonepayQrImageUrl: null,
@@ -36,7 +36,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Homepage Hero Main Editorial Banner (Desktop)",
     pageSection: "HOMEPAGE",
     imageUrl: null,
-    altText: "LUGA Volume I Kathmandu Campaign Editorial",
+    altText: "Obsidian Apparel Volume I Kathmandu Campaign Editorial",
     aspectRatio: "16:9",
     resolution: "2560×1440px / Full-Bleed 16:9",
     heading: "VOLUME I: KATHMANDU ARCHIVE",
@@ -51,7 +51,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Homepage Hero Mobile Campaign Banner",
     pageSection: "HOMEPAGE",
     imageUrl: null,
-    altText: "LUGA Mobile Editorial Frame",
+    altText: "Obsidian Apparel Mobile Editorial Frame",
     aspectRatio: "4:5",
     resolution: "1080×1350px Portrait",
     heading: "VOLUME I",
@@ -126,7 +126,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Category Header Banner - Outerwear",
     pageSection: "CATEGORIES",
     imageUrl: null,
-    altText: "LUGA Outerwear Archive",
+    altText: "Obsidian Apparel Outerwear Archive",
     aspectRatio: "21:9",
     resolution: "2560×1080px Ultrawide",
     heading: "OUTERWEAR & COATS",
@@ -141,7 +141,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Category Header Banner - Knitwear & Hoodies",
     pageSection: "CATEGORIES",
     imageUrl: null,
-    altText: "LUGA Knitwear & Heavyweight Hoodies",
+    altText: "Obsidian Apparel Knitwear & Heavyweight Hoodies",
     aspectRatio: "21:9",
     resolution: "2560×1080px Ultrawide",
     heading: "KNITWEAR & HOODIES",
@@ -156,7 +156,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Category Header Banner - Shirts & Tees",
     pageSection: "CATEGORIES",
     imageUrl: null,
-    altText: "LUGA Shirts & Graphic Oversized Tees",
+    altText: "Obsidian Apparel Shirts & Graphic Oversized Tees",
     aspectRatio: "21:9",
     resolution: "2560×1080px Ultrawide",
     heading: "SHIRTS & TEES",
@@ -171,7 +171,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Category Header Banner - Trousers & Cargos",
     pageSection: "CATEGORIES",
     imageUrl: null,
-    altText: "LUGA Trousers & Cargo Pants",
+    altText: "Obsidian Apparel Trousers & Cargo Pants",
     aspectRatio: "21:9",
     resolution: "2560×1080px Ultrawide",
     heading: "TROUSERS & CARGOS",
@@ -186,7 +186,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "About Page - Atelier & Designers Frame",
     pageSection: "ABOUT",
     imageUrl: null,
-    altText: "LUGA Kathmandu Atelier & Design Studio",
+    altText: "Obsidian Apparel Kathmandu Atelier & Design Studio",
     aspectRatio: "4:5",
     resolution: "1200×1500px Portrait",
     heading: "THE ATELIER // PATAN",
@@ -212,7 +212,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Nepal Fonepay QR Code Scan Image",
     pageSection: "BRAND_ASSETS",
     imageUrl: null,
-    altText: "LUGA Studio Official Fonepay Merchant QR Code",
+    altText: "Obsidian Apparel Studio Official Fonepay Merchant QR Code",
     aspectRatio: "1:1",
     resolution: "800×800px Square",
     heading: "FONEPAY MERCHANT QR",
@@ -225,7 +225,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "About Page Narrative, Pillars & Salon CMS Data",
     pageSection: "ABOUT",
     imageUrl: null,
-    altText: "LUGA About Story CMS Payload",
+    altText: "Obsidian Apparel About Story CMS Payload",
     aspectRatio: "16:9",
     resolution: "CMS Payload",
     heading: "THE VALLEY MANIFESTO",
@@ -238,7 +238,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Homepage Editorial Copy & Sections CMS Data",
     pageSection: "HOMEPAGE",
     imageUrl: null,
-    altText: "LUGA Homepage CMS Payload",
+    altText: "Obsidian Apparel Homepage CMS Payload",
     aspectRatio: "16:9",
     resolution: "CMS Payload",
     heading: "VOLUME I: KATHMANDU ARCHIVE",
@@ -251,7 +251,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Shop & Catalog Categories CMS Data",
     pageSection: "CATEGORIES",
     imageUrl: null,
-    altText: "LUGA Shop Catalog CMS Payload",
+    altText: "Obsidian Apparel Shop Catalog CMS Payload",
     aspectRatio: "21:9",
     resolution: "CMS Payload",
     heading: "ALL READY-TO-WEAR",
@@ -264,7 +264,7 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Lookbook Editorial Reel CMS Data",
     pageSection: "BRAND_ASSETS",
     imageUrl: null,
-    altText: "LUGA Lookbook CMS Payload",
+    altText: "Obsidian Apparel Lookbook CMS Payload",
     aspectRatio: "21:9",
     resolution: "CMS Payload",
     heading: "LOOKBOOK ARCHIVE",
@@ -277,10 +277,10 @@ export const INITIAL_MEDIA_SLOTS: Record<string, SiteMediaSlot> = {
     label: "Global Footer & Enclave Patron CMS Data",
     pageSection: "BRAND_ASSETS",
     imageUrl: null,
-    altText: "LUGA Footer & Enclave CMS Payload",
+    altText: "Obsidian Apparel Footer & Enclave CMS Payload",
     aspectRatio: "16:9",
     resolution: "CMS Payload",
-    heading: "LUGA ENCLAVE",
+    heading: "OBSIDIAN ENCLAVE",
     subHeading: null,
     updatedAt: new Date().toISOString(),
   },
@@ -297,12 +297,12 @@ export const DEFAULT_ABOUT_CONTENT: AboutPageData = {
   narrativeParagraph1:
     "For decades, global luxury fashion has looked toward Paris, Milan, and Tokyo for creative authority, while extracting raw cashmere, pashmina, and handloom cotton from South Asia under silent private labels.",
   narrativeParagraph2:
-    "LUGA (लुगा) was born to subvert that hierarchy. Based in the ancient Newar artisan quarter of Patan (Lalitpur), we engineer contemporary streetwear that is entirely conceived, woven, tailored, and finished within Nepal. We do not celebrate shallow nostalgia; instead, we treat our cultural heritage as a living, evolving architectural framework.",
+    "Obsidian Apparel was born to subvert that hierarchy. Based in the ancient Newar artisan quarter of Patan (Lalitpur), we engineer contemporary streetwear that is entirely conceived, woven, tailored, and finished within Nepal. We do not celebrate shallow nostalgia; instead, we treat our cultural heritage as a living, evolving architectural framework.",
   narrativeParagraph3:
     "Our garments pair heavy 420–580 GSM organic cotton terry and raw Himalayan hemp with intricate Dhaka brocades and boiled Mustang yak fibers. Each piece takes days of meticulous hand manipulation on century-old wooden shuttle looms.",
 
   pillarsTag: "TECHNICAL DISCIPLINE",
-  pillarsHeading: "THE THREE LUGA PILLARS",
+  pillarsHeading: "THE THREE OBSIDIAN PILLARS",
 
   pillar1Badge: "01 // HEAVYWEIGHT ARCHITECTURE",
   pillar1Title: "420–580 GSM Custom Milling",
@@ -374,7 +374,7 @@ export const DEFAULT_HOMEPAGE_CONTENT: HomePageData = {
   storyHeading:
     "Hand-woven in ancient Nepal. Tailored for brutalist contemporary living.",
   storyParagraph1:
-    "Founded in the historic stone lanes of Lalitpur (Patan), LUGA was born to challenge the Western monopoly on luxury streetwear. We fuse centuries-old Newari handloom traditions, Mustang yak-down fibers, and Palpali Dhaka weaves with modern heavyweight silhouettes.",
+    "Founded in the historic stone lanes of Lalitpur (Patan), Obsidian Apparel was born to challenge the Western monopoly on luxury streetwear. We fuse centuries-old Newari handloom traditions, Mustang yak-down fibers, and Palpali Dhaka weaves with modern heavyweight silhouettes.",
   storyParagraph2:
     "Every garment is crafted inside our Kathmandu Valley workshop in small, unhurried volumes. We don't follow fast fashion seasons; each drop is an archival release engineered to last generations.",
   storyCtaText: "READ THE FULL MANIFESTO",
@@ -382,7 +382,7 @@ export const DEFAULT_HOMEPAGE_CONTENT: HomePageData = {
 };
 
 export const DEFAULT_SHOP_CONTENT: ShopPageData = {
-  shopTag: "LUGA PERMANENT ARCHIVE",
+  shopTag: "OBSIDIAN PERMANENT ARCHIVE",
   shopHeading: "ALL READY-TO-WEAR",
   shopDescription:
     "Heavyweight streetwear silhouettes tailored in Kathmandu with Newari artisan traditions.",
@@ -408,18 +408,18 @@ export const DEFAULT_LOOKBOOK_CONTENT: LookbookPageData = {
   highlightTag: "FEATURED 35MM CINEMATIC FILM REEL",
   highlightHeading: "VOLUME I: PATAN ARCHIVE FILM",
   highlightDescription:
-    "Direction by LUGA Atelier. Motion picture 35mm stock.",
+    "Direction by Obsidian Apparel Atelier. Motion picture 35mm stock.",
 };
 
 export const DEFAULT_FOOTER_CONTENT: FooterPageData = {
-  enclaveTag: "LUGA ENCLAVE // PRIVATE ARCHIVE ACCESS",
+  enclaveTag: "OBSIDIAN ENCLAVE // PRIVATE ARCHIVE ACCESS",
   enclaveHeading: "Become a Patron of Contemporary Nepali Streetwear",
   enclaveDescription:
     "Gain priority invitations to capsule drops, bespoke Dhaka made-to-order garments, and private salon viewings in Patan.",
   brandDescription:
     "Contemporary Nepali luxury streetwear fusing 17th-century Patan handloom artistry with heavy Japanese-grade brutalist garment architecture.",
   craftQuarterLocation: "PATAN DURBAR CRAFT QUARTER // KATHMANDU VALLEY",
-  copyrightText: "LUGA STUDIO KATHMANDU. ALL ARCHIVAL RIGHTS RESERVED.",
+  copyrightText: "OBSIDIAN APPAREL KATHMANDU. ALL ARCHIVAL RIGHTS RESERVED.",
 };
 
 export const INITIAL_COLLECTIONS: Collection[] = [
@@ -750,7 +750,7 @@ export const INITIAL_LOOKBOOK_ITEMS: LookbookItem[] = [
 export const INITIAL_SAMPLE_ORDERS: Order[] = [
   {
     id: "ord-1001",
-    orderNumber: "LUG-2026-8941",
+    orderNumber: "OBS-2026-8941",
     customerName: "Aayush Shrestha",
     phone: "+977 9841223344",
     email: "aayush.shrestha@example.com",
@@ -789,7 +789,7 @@ export const INITIAL_SAMPLE_ORDERS: Order[] = [
   },
   {
     id: "ord-1002",
-    orderNumber: "LUG-2026-8942",
+    orderNumber: "OBS-2026-8942",
     customerName: "Prashant Thapa",
     phone: "+977 9803112299",
     email: "prashant.thapa@example.com",
@@ -819,7 +819,7 @@ export const INITIAL_SAMPLE_ORDERS: Order[] = [
   },
   {
     id: "ord-1003",
-    orderNumber: "LUG-2026-8943",
+    orderNumber: "OBS-2026-8943",
     customerName: "Shreeya Shakya",
     phone: "+977 9813556677",
     email: "shreeya.shakya@example.com",

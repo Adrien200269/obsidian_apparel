@@ -14,7 +14,7 @@ interface LuxuryLoaderProps {
 export const LuxuryLoader: React.FC<LuxuryLoaderProps> = ({
   fullScreen = false,
   label = "RETRIEVING ARCHIVAL SILHOUETTES...",
-  sublabel = "KATHMANDU ATELIER // PATAN CRAFT QUARTER",
+  sublabel = "KATHMANDU ATELIER // ESTABLISHED 2026",
   className,
 }) => {
   return (
@@ -83,10 +83,10 @@ export const LuxuryLoader: React.FC<LuxuryLoaderProps> = ({
 
         {/* Brand Monogram */}
         <div className="space-y-1.5 mb-5">
-          <span className="font-editorial text-2xl sm:text-3xl tracking-[0.35em] uppercase font-light text-luga-ink dark:text-luga-darkInk block">
-            LUGA
+          <span className="font-editorial text-xl sm:text-3xl tracking-[0.25em] uppercase font-light text-luga-ink dark:text-luga-darkInk block">
+            OBSIDIAN APPAREL
           </span>
-          <span className="font-mono text-[9px] sm:text-[10px] tracking-mega uppercase text-luga-muted dark:text-luga-darkMuted block">
+          <span className="font-mono text-[8px] sm:text-[9.5px] tracking-[0.22em] uppercase text-luga-muted dark:text-luga-darkMuted block font-light">
             {sublabel}
           </span>
         </div>

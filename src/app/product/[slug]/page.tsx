@@ -102,7 +102,7 @@ export default function ProductDetailPage() {
 
   // WhatsApp Concierge message pre-fill
   const waText = encodeURIComponent(
-    `Namaste LUGA Studio! I am interested in acquiring "${product.title}" (${product.sku}) in Size ${selectedSize} for ${formatNpr(product.priceNpr)}. Could you assist me with sizing and Kathmandu delivery?`
+    `Namaste Obsidian Apparel! I am interested in acquiring "${product.title}" (${product.sku}) in Size ${selectedSize} for ${formatNpr(product.priceNpr)}. Could you assist me with sizing and Kathmandu delivery?`
   );
   const waUrl = `https://wa.me/${settings.whatsappNumber.replace(/[^0-9]/g, "")}?text=${waText}`;
 
@@ -115,7 +115,7 @@ export default function ProductDetailPage() {
     <StorefrontLayout>
       {/* Breadcrumb Micro-bar */}
       <div className="max-w-[1920px] mx-auto px-4 sm:px-8 py-3 sm:py-4 border-b border-luga-border/60 dark:border-luga-darkBorder/60 font-mono text-[9px] sm:text-[10px] tracking-wider uppercase text-luga-muted dark:text-luga-darkMuted flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar whitespace-nowrap">
-        <Link href="/" className="hover:text-luga-ink dark:hover:text-luga-darkInk shrink-0">LUGA</Link>
+        <Link href="/" className="hover:text-luga-ink dark:hover:text-luga-darkInk shrink-0">OBSIDIAN APPAREL</Link>
         <span>/</span>
         <Link href="/shop" className="hover:text-luga-ink dark:hover:text-luga-darkInk shrink-0">ARCHIVE</Link>
         <span>/</span>
@@ -428,13 +428,13 @@ export default function ProductDetailPage() {
             </button>
 
             <span className="font-mono text-[10px] tracking-mega uppercase text-luga-crimson dark:text-luga-gold">
-              LUGA ATELIER SPECIFICATIONS
+              OBSIDIAN APPAREL SPECIFICATIONS
             </span>
             <h3 className="font-editorial text-2xl sm:text-3xl uppercase tracking-tight text-luga-ink dark:text-luga-darkInk mt-1 mb-2">
               NEPAL & GLOBAL FIT GUIDE
             </h3>
             <p className="font-mono text-xs text-luga-muted dark:text-luga-darkMuted mb-6 leading-relaxed">
-              All LUGA garments are tailored in an intentional relaxed, dropped-shoulder luxury silhouette. For a standard fit, order your true size. For a tailored slim fit, consider sizing down.
+              All Obsidian Apparel garments are tailored in an intentional relaxed, dropped-shoulder luxury silhouette. For a standard fit, order your true size. For a tailored slim fit, consider sizing down.
             </p>
 
             <div className="overflow-x-auto">

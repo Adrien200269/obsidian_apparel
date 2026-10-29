@@ -335,7 +335,7 @@ export default function AdminAboutPage() {
 
             <div className="space-y-1">
               <label className="text-[10px] text-luga-muted uppercase font-bold">
-                PARAGRAPH 02 (LUGA ORIGIN & NEWAR ARCHITECTURAL HERITAGE)
+                PARAGRAPH 02 (OBSIDIAN APPAREL ORIGIN & NEWAR ARCHITECTURAL HERITAGE)
               </label>
               <textarea
                 rows={4}
@@ -569,7 +569,7 @@ export default function AdminAboutPage() {
                   type="text"
                   value={formData.pillarsHeading}
                   onChange={(e) => handleFieldChange("pillarsHeading", e.target.value)}
-                  placeholder="e.g. THE THREE LUGA PILLARS"
+                  placeholder="e.g. THE THREE OBSIDIAN PILLARS"
                   className="w-full bg-transparent border border-luga-border p-2 text-xs"
                 />
               </div>

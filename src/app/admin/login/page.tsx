@@ -82,14 +82,14 @@ export default function AdminLoginPage() {
       <header className="relative z-10 p-6 sm:p-10 flex items-center justify-between border-b border-luga-border/60 dark:border-luga-darkBorder/60">
         <Link href="/" className="group flex items-center gap-3">
           <div className="w-8 h-8 bg-luga-ink dark:bg-luga-darkInk text-white dark:text-black flex items-center justify-center font-editorial font-bold text-lg">
-            L
+            O
           </div>
           <div>
             <span className="font-editorial text-2xl font-bold tracking-[0.25em] uppercase text-luga-ink dark:text-luga-darkInk">
-              LUGA
+              OBSIDIAN APPAREL
             </span>
-            <span className="block font-mono text-[8px] tracking-mega uppercase text-luga-muted">
-              KATHMANDU ATELIER
+            <span className="block font-mono text-[8px] tracking-mega uppercase text-luga-muted font-light">
+              ESTABLISHED 2026
             </span>
           </div>
         </Link>
@@ -232,7 +232,7 @@ export default function AdminLoginPage() {
 
       {/* Footer */}
       <footer className="relative z-10 p-6 text-center font-mono text-[10px] text-luga-muted border-t border-luga-border/60 dark:border-luga-darkBorder/60">
-        <div>LUGA STUDIO PATAN ATELIER // KATHMANDU VALLEY, NEPAL</div>
+        <div>OBSIDIAN APPAREL PATAN ATELIER // KATHMANDU VALLEY, NEPAL</div>
         <div>ALL RIGHTS RESERVED • 2026</div>
       </footer>
     </div>

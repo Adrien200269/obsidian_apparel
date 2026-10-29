@@ -144,14 +144,14 @@ export default function AdminFooterPage() {
         )}
 
         <form onSubmit={handleSave} className="space-y-10">
-          {/* SECTION 1: LUGA ENCLAVE / PATRON NEWSLETTER BANNER */}
+          {/* SECTION 1: OBSIDIAN ENCLAVE / PATRON NEWSLETTER BANNER */}
           <div className="p-6 sm:p-8 bg-luga-bg dark:bg-[#0F0F0F] border border-luga-border dark:border-luga-darkBorder space-y-6">
             <div className="flex items-center gap-2 border-b border-luga-border/50 pb-3">
               <span className="px-2 py-0.5 bg-luga-crimson/10 text-luga-crimson dark:bg-luga-gold/10 dark:text-luga-gold font-bold text-[10px]">
                 01
               </span>
               <h2 className="text-sm uppercase tracking-mega font-bold text-luga-ink dark:text-luga-darkInk">
-                LUGA ENCLAVE // PRIVATE PATRON ARCHIVE ACCESS BANNER
+                OBSIDIAN ENCLAVE // PRIVATE PATRON ARCHIVE ACCESS BANNER
               </h2>
             </div>
 

@@ -1,6 +1,6 @@
-# LUGA (लुगा) // Contemporary Nepali Luxury Streetwear & Artisanal Fashion
+# Obsidian Apparel // Contemporary Nepali Luxury Streetwear & Artisanal Fashion
 
-> High-fashion South Asian contemporary editorial interface inspired by the typography, pacing, and brutalist luxury aesthetic of **[row.rastah.co](https://row.rastah.co/)**. Handcrafted in Patan & Kathmandu, Nepal.
+> High-fashion South Asian contemporary editorial interface inspired by the typography, pacing, and brutalist luxury aesthetic of **[row.rastah.co](https://row.rastah.co/)**. Handcrafted in Patan & Kathmandu, Nepal. Established 2026.
 
 ---
 
@@ -8,7 +8,7 @@
 
 1. **NO AI IMAGES OR STOCK PHOTOS**:
    - Zero AI generated images, Unsplash stock photos, or external dummy assets.
-   - Built with the custom **`<ManagedImage />`** architectural wireframe placeholder component displaying subtle grid crosshairs, coordinates (`KTM // 27.7172° N`), slot identifier, recommended resolution & aspect ratio, and the `"LUGA STUDIO // AWAITING ADMIN UPLOAD"` badge.
+   - Built with the custom **`<ManagedImage />`** architectural wireframe placeholder component displaying subtle grid crosshairs, coordinates (`KTM // 27.7172° N`), slot identifier, recommended resolution & aspect ratio, and the `"OBSIDIAN APPAREL STUDIO // AWAITING ADMIN UPLOAD"` badge.
    - When an administrator uploads a local file or pastes an image URL in the Admin Panel, the placeholder immediately renders the uploaded image across the website.
 
 2. **GLOBAL WEBSITE IMAGE CONTROL CENTER (`/admin/site-media`)**:

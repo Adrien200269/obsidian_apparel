@@ -127,15 +127,15 @@ interface StoreContextType {
 const StoreContext = createContext<StoreContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  SLOTS: "luga_media_slots_v1",
-  PRODUCTS: "luga_products_v1",
-  COLLECTIONS: "luga_collections_v1",
-  LOOKBOOK: "luga_lookbook_v1",
-  ORDERS: "luga_orders_v1",
-  SETTINGS: "luga_settings_v1",
-  CART: "luga_cart_v1",
-  ADMIN_SESSION: "luga_admin_session_v1",
-  SYNC_TIMESTAMP: "luga_sync_timestamp",
+  SLOTS: "obsidian_media_slots_v1",
+  PRODUCTS: "obsidian_products_v1",
+  COLLECTIONS: "obsidian_collections_v1",
+  LOOKBOOK: "obsidian_lookbook_v1",
+  ORDERS: "obsidian_orders_v1",
+  SETTINGS: "obsidian_settings_v1",
+  CART: "obsidian_cart_v1",
+  ADMIN_SESSION: "obsidian_admin_session_v1",
+  SYNC_TIMESTAMP: "obsidian_sync_timestamp",
 };
 
 export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -162,7 +162,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       localStorage.setItem(STORAGE_KEYS.SYNC_TIMESTAMP, Date.now().toString());
     } catch {}
     if (typeof window !== "undefined") {
-      window.dispatchEvent(new CustomEvent("luga_local_update"));
+      window.dispatchEvent(new CustomEvent("obsidian_local_update"));
     }
   }, []);
 
@@ -283,7 +283,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       const savedCart = localStorage.getItem(STORAGE_KEYS.CART);
       if (savedCart) setCart(JSON.parse(savedCart));
     } catch (err) {
-      console.error("LUGA Store local hydration error:", err);
+      console.error("Obsidian Apparel Store local hydration error:", err);
     } finally {
       setIsLoaded(true);
     }
@@ -1181,14 +1181,15 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       const trimmedEmail = email.trim().toLowerCase();
       const trimmedPass = pass.trim();
       if (
-        (trimmedEmail === "admin@luga.studio" ||
+        (trimmedEmail === "admin@obsidian.studio" ||
+          trimmedEmail === "admin@luga.studio" ||
           trimmedEmail === "adrien@luga.studio" ||
           trimmedEmail === "admin") &&
-        (trimmedPass === "luga2026" || trimmedPass === "luga" || trimmedPass === "admin")
+        (trimmedPass === "obsidian2026" || trimmedPass === "luga2026" || trimmedPass === "luga" || trimmedPass === "admin")
       ) {
         const user: AdminUser = {
           id: "usr-admin-kathmandu",
-          email: trimmedEmail.includes("@") ? trimmedEmail : "admin@luga.studio",
+          email: trimmedEmail.includes("@") ? trimmedEmail : "admin@obsidian.studio",
           name: "Sabja Shrestha // Atelier Director",
           role: "ADMIN",
           lastLogin: new Date().toISOString(),

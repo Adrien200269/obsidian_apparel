@@ -129,7 +129,7 @@ export default function AdminCollectionsPage() {
           <div>
             <span className="font-mono text-[10px] sm:text-xs tracking-mega uppercase text-luga-crimson dark:text-luga-gold flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5" />
-              LUGA ARCHIVE CURATION
+              OBSIDIAN ARCHIVE CURATION
             </span>
             <h1 className="font-editorial text-3xl sm:text-5xl uppercase tracking-tight text-luga-ink dark:text-luga-darkInk mt-1">
               VOLUMES & COLLECTIONS

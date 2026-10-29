@@ -34,7 +34,7 @@ interface ManagedImageProps {
 export const ManagedImage: React.FC<ManagedImageProps> = ({
   slotKey,
   src,
-  alt = "LUGA Editorial Slot",
+  alt = "Obsidian Apparel Editorial Slot",
   slotName,
   aspectRatio,
   resolution,
@@ -42,7 +42,7 @@ export const ManagedImage: React.FC<ManagedImageProps> = ({
   imageClassName,
   priority = false,
   showInfo = true,
-  editorialBadge = "LUGA STUDIO // AWAITING ADMIN UPLOAD",
+  editorialBadge = "OBSIDIAN APPAREL STUDIO // AWAITING ADMIN UPLOAD",
   onClick,
   fill = true,
 }) => {
@@ -252,7 +252,7 @@ export const ManagedImage: React.FC<ManagedImageProps> = ({
             <div className="relative flex flex-col items-center gap-1.5 opacity-60">
               <Compass className="w-5 h-5 text-luga-crimson dark:text-luga-gold animate-spin-slow stroke-[1.2]" />
               <span className="font-mono text-[8px] tracking-mega uppercase text-luga-muted dark:text-luga-darkMuted">
-                LUGA ARCHIVE
+                OBSIDIAN ARCHIVE
               </span>
             </div>
           </div>

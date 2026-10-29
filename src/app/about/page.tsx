@@ -25,7 +25,7 @@ export default function AboutPage() {
             slotKey="HERITAGE_STORY_BANNER"
             aspectRatio="16:9"
             resolution="2000×1125px"
-            alt={heritageSlot?.altText || "LUGA Atelier Lalitpur"}
+            alt={heritageSlot?.altText || "Obsidian Apparel Atelier Lalitpur"}
             className="w-full h-full border-none"
             priority
           />
@@ -120,7 +120,7 @@ export default function AboutPage() {
             {about.pillarsTag || "TECHNICAL DISCIPLINE"}
           </span>
           <h2 className="font-editorial text-3xl sm:text-5xl uppercase tracking-tight text-luga-ink dark:text-luga-darkInk">
-            {about.pillarsHeading || "THE THREE LUGA PILLARS"}
+            {about.pillarsHeading || "THE THREE OBSIDIAN PILLARS"}
           </h2>
         </ScrollReveal>
 

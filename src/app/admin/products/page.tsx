@@ -214,7 +214,7 @@ export default function AdminProductsPage() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between border-b border-luga-border dark:border-luga-darkBorder pb-6 gap-4">
           <div>
             <span className="font-mono text-[10px] sm:text-xs tracking-mega uppercase text-luga-crimson dark:text-luga-gold">
-              LUGA ATELIER INVENTORY
+              OBSIDIAN ATELIER INVENTORY
             </span>
             <h1 className="font-editorial text-3xl sm:text-5xl uppercase tracking-tight text-luga-ink dark:text-luga-darkInk mt-1">
               CLOTHES & PRODUCTS
@@ -521,7 +521,7 @@ export default function AdminProductsPage() {
                     GARMENT EDITORIAL VISUAL SLOTS (NO STOCK PHOTOS NEEDED)
                   </label>
                   <p className="text-[10px] text-luga-muted">
-                    If no photo is uploaded, LUGA&apos;s architectural wireframe placeholder will automatically display in the storefront.
+                    If no photo is uploaded, Obsidian Apparel&apos;s architectural wireframe placeholder will automatically display in the storefront.
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

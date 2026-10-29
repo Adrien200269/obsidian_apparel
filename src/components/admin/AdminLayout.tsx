@@ -202,11 +202,11 @@ export const AdminLayout: React.FC<{ children: React.ReactNode }> = ({
           <div className="p-6 border-b border-luga-border dark:border-luga-darkBorder flex items-center justify-between">
             <Link href="/admin" className="flex items-center gap-3">
               <div className="w-8 h-8 bg-luga-ink dark:bg-luga-darkInk text-white dark:text-black flex items-center justify-center font-editorial font-bold text-lg">
-                L
+                O
               </div>
               <div>
                 <div className="font-editorial text-xl font-bold tracking-widest uppercase">
-                  LUGA CMS
+                  OBSIDIAN CMS
                 </div>
                 <div className="font-mono text-[9px] tracking-mega text-luga-crimson dark:text-luga-gold uppercase">
                   KATHMANDU ATELIER
@@ -305,7 +305,7 @@ export const AdminLayout: React.FC<{ children: React.ReactNode }> = ({
           <div className="p-2.5 bg-luga-surface/40 dark:bg-luga-darkSurface/40 text-[9px] text-luga-muted space-y-0.5">
             <div className="flex items-center gap-1 text-luga-ink dark:text-luga-darkInk font-semibold">
               <Compass className="w-3 h-3 text-luga-crimson dark:text-luga-gold" />
-              <span>LUGA PRODUCTION CMS</span>
+              <span>OBSIDIAN PRODUCTION CMS</span>
             </div>
             <div>PATAN DURBAR CRAFT QUARTER // NPR (रू)</div>
           </div>

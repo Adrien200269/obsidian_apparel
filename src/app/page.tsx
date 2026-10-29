@@ -41,7 +41,7 @@ export default function HomePage() {
               slotKey="HERO_MAIN_BANNER"
               aspectRatio="16:9"
               resolution="2560×1440px"
-              alt="LUGA Volume I Campaign"
+              alt="Obsidian Apparel Volume I Campaign"
               className="w-full h-full border-none"
               imageClassName="w-full h-full object-cover"
               priority
@@ -53,7 +53,7 @@ export default function HomePage() {
               slotKey={heroMobileSlot?.imageUrl ? "HERO_MOBILE_BANNER" : "HERO_MAIN_BANNER"}
               aspectRatio="4:5"
               resolution="1080×1350px"
-              alt="LUGA Volume I Mobile Campaign"
+              alt="Obsidian Apparel Volume I Mobile Campaign"
               className="w-full h-full border-none"
               imageClassName="w-full h-full object-cover"
               priority

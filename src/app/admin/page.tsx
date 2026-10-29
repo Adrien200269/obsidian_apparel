@@ -46,7 +46,7 @@ export default function AdminDashboardPage() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between border-b border-luga-border dark:border-luga-darkBorder pb-6 gap-4">
           <div>
             <span className="font-mono text-[10px] sm:text-xs tracking-mega uppercase text-luga-crimson dark:text-luga-gold">
-              LUGA ATELIER // KATHMANDU
+              OBSIDIAN ATELIER // KATHMANDU
             </span>
             <h1 className="font-editorial text-3xl sm:text-5xl uppercase tracking-tight text-luga-ink dark:text-luga-darkInk mt-1">
               STUDIO DASHBOARD

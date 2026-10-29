@@ -38,7 +38,7 @@ export const SearchDrawer: React.FC = () => {
       {/* Top Header */}
       <div className="w-full border-b border-luga-border dark:border-luga-darkBorder px-6 py-5 flex items-center justify-between">
         <div className="font-mono text-xs tracking-mega uppercase text-luga-muted dark:text-luga-darkMuted">
-          LUGA ARCHIVE SEARCH // KATHMANDU
+          OBSIDIAN APPAREL ARCHIVE SEARCH // KATHMANDU
         </div>
         <button
           onClick={() => setIsSearchOpen(false)}

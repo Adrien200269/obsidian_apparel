@@ -113,27 +113,25 @@ export const Header: React.FC = () => {
             </nav>
           </div>
 
-          {/* CENTER: LUGA Wordmark / Logo (Guaranteed Centered, Protected From Overlap) */}
-          <div className="flex-shrink-0 text-center px-1 sm:px-4 max-w-[130px] sm:max-w-none">
-            <Link href="/" className="inline-block group">
+          {/* CENTER: Obsidian Apparel Wordmark / Logo (Guaranteed Centered, Protected From Overlap) */}
+          <div className="flex-shrink-0 text-center px-1 sm:px-4">
+            <Link href="/" className="inline-flex flex-col items-center group">
               {logoDarkSlot?.imageUrl || logoLightSlot?.imageUrl ? (
-                <div className="h-7 sm:h-10 flex items-center justify-center">
+                <div className="h-7 sm:h-9 flex items-center justify-center">
                   <img
                     src={logoDarkSlot?.imageUrl || logoLightSlot?.imageUrl || ""}
-                    alt="LUGA"
+                    alt="Obsidian Apparel"
                     className="max-h-full max-w-full object-contain"
                   />
                 </div>
               ) : (
-                <div className="flex flex-col items-center">
-                  <span className="font-editorial text-xl sm:text-3xl tracking-[0.28em] sm:tracking-[0.35em] uppercase text-luga-ink dark:text-luga-darkInk font-bold transition-all duration-300 group-hover:tracking-[0.42em]">
-                    LUGA
-                  </span>
-                  <span className="font-mono text-[7px] sm:text-[9px] tracking-mega uppercase text-luga-muted dark:text-luga-darkMuted -mt-1 opacity-80">
-                    KATHMANDU • 2026
-                  </span>
-                </div>
+                <span className="font-editorial text-sm sm:text-2xl lg:text-3xl tracking-[0.18em] sm:tracking-[0.26em] uppercase text-luga-ink dark:text-luga-darkInk font-bold transition-all duration-300 group-hover:tracking-[0.32em] whitespace-nowrap">
+                  OBSIDIAN APPAREL
+                </span>
               )}
+              <span className="font-mono text-[7px] sm:text-[8.5px] tracking-[0.22em] sm:tracking-[0.28em] uppercase text-luga-muted dark:text-luga-darkMuted -mt-0.5 opacity-80 font-light">
+                ESTABLISHED 2026
+              </span>
             </Link>
           </div>
 
@@ -201,7 +199,7 @@ export const Header: React.FC = () => {
                 <div className="flex items-center gap-2">
                   <Compass className="w-4 h-4 text-luga-crimson dark:text-luga-gold animate-spin" style={{ animationDuration: "14s" }} />
                   <span className="font-mono text-xs uppercase tracking-mega text-luga-ink dark:text-luga-darkInk">
-                    LUGA ARCHIVE DIRECTORY
+                    OBSIDIAN APPAREL DIRECTORY
                   </span>
                 </div>
                 <button
